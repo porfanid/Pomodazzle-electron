@@ -1,0 +1,41 @@
+name: Electron App Build and Upload Artifact
+
+on:
+  push:
+    branches:
+      - 'main'  # Trigger only on the 'main' branch
+    paths:
+      - 'package.json'  # Trigger when 'package.json' changes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js and install dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      # Step 3: Build the Electron app for Windows and Linux
+      - name: Build app
+        run: npm run build -- --win --linux
+
+      # Step 4: Upload build artifacts securely as release candidates
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: electron-build-artifacts
+          path: |
+            dist/*.exe
+            dist/*.AppImage
+
+  # Step 5: Use SLSA signing and verification in a subsequent workflow

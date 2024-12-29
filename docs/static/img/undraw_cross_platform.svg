@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <!-- Globe -->
+    <circle cx="100" cy="100" r="80" fill="#3f51b5" />
+    <circle cx="100" cy="100" r="75" fill="none" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- Globe Grid Lines -->
+    <path d="M20,100 C30,50 70,30 100,40 C130,50 170,30 180,70" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <path d="M20,100 C30,150 70,170 100,160 C130,150 170,170 180,130" stroke="#ffffff" stroke-width="2" fill="none"/>
+
+    <!-- Cloud -->
+    <circle cx="150" cy="50" r="20" fill="#ffffff"/>
+    <circle cx="170" cy="50" r="20" fill="#ffffff"/>
+    <circle cx="160" cy="40" r="20" fill="#ffffff"/>
+    <circle cx="140" cy="40" r="20" fill="#ffffff"/>
+
+    <!-- Laptop Icon -->
+    <rect x="35" y="70" width="50" height="30" rx="5" fill="#ffffff"/>
+    <rect x="30" y="100" width="60" height="5" fill="#ffffff"/>
+    <path d="M35,70 L50,55 L65,70" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- Mobile Phone Icon -->
+    <rect x="130" y="80" width="25" height="50" rx="5" fill="#ffffff"/>
+    <circle cx="142" cy="110" r="3" fill="#000000"/>
+
+    <!-- Arrows (indicating interaction across platforms) -->
+    <path d="M55,115 L80,115" stroke="#ffffff" stroke-width="2"/>
+    <path d="M80,115 L75,105" stroke="#ffffff" stroke-width="2"/>
+    <path d="M80,115 L75,125" stroke="#ffffff" stroke-width="2"/>
+    <path d="M130,115 L105,115" stroke="#ffffff" stroke-width="2"/>
+    <path d="M105,115 L110,105" stroke="#ffffff" stroke-width="2"/>
+    <path d="M105,115 L110,125" stroke="#ffffff" stroke-width="2"/>
+</svg>
