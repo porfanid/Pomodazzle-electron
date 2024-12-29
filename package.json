@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder",
+    "build": "NODE_ENV=production rm -rf ./dist&&electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -16,17 +16,32 @@
       }
     }
   },
+  "author": {
+    "name": "Pavlos Orfanidis",
+    "email": "pavlos@orfanidis.net.gr"
+  },
   "build": {
-    "appId": "com.yourapp.id",
-    "productName": "YourApp",
+    "appId": "com.porfanid",
+    "productName": "Pomodazzle",
+    "copyright": "Pavlos Orfanidis <pavlos@orfanidis.net.gr>",
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "icons/pomodazzle-icon.ico"
     },
     "mac": {
       "target": "dmg"
     },
     "linux": {
-      "target": "AppImage"
+      "target": "appImage",
+      "icon": "icons/pomodazzle-icon.png",
+      "category": "Utility",
+      "desktop": {
+        "Name": "Pomodazzle",
+        "Comment": "A Pomodoro Timer App",
+        "Icon": "pomodazzle-icon",
+        "Terminal": false,
+        "Type": "Application"
+      }
     }
   },
   "private": true,
