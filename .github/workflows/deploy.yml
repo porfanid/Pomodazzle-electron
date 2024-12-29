@@ -25,8 +25,17 @@ jobs:
         working-directory: ./docs
         run: npm run build
 
+
+      - name: Set up git config
+        run: |
+          git config --global user.name "Pavlos Orfanidis"
+          git config --global user.email "pavlos@orfanidis.net.gr"
+          git remote set-url origin https://github.com/porfanid/Pomodazzle-electron.git
+
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/build
+          publish_branch: gh-pages
