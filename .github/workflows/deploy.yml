@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main # Adjust to the branch where your source code lives
+      - master # Adjust to the branch where your source code lives
 
 jobs:
   deploy:

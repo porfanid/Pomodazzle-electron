@@ -21,13 +21,12 @@ jobs:
         with:
           name: electron-build-artifacts
 
-      # Step 3: Set up signing environment (Ensure that your signing key is in a secure vault)
-      - name: Set up GPG (or any signing tool you use)
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.SIGNING_PRIVATE_KEY }}
+      # Step 3: Set up GPG (or any signing tool you use)
+      - name: Set up GPG
+        run: |
+          gpg --batch --import ${{ secrets.GPG_PRIVATE_KEY }}
 
-      # Step 4: Sign the artifacts (Using GPG or any other secure signing tool)
+      # Step 4: Sign the artifacts using GPG
       - name: Sign the Windows executable
         run: gpg --armor --detach-sign --output dist/pomodazzle-1.0.1.exe.sig dist/pomodazzle-1.0.1.exe
 
