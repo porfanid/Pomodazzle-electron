@@ -11,7 +11,7 @@ export class PomodoroTimer {
         this.listener = listener;
         this.isBreakTime = 0; // 0: work, 1: break, 2: long break
         this.timer = null;
-        this.soundPlayer = new Audio('path_to_sound.mp3'); // Placeholder for sound file
+        this.soundPlayer = new Audio('../resources/single_beep.wav'); // Placeholder for sound file
     }
 
     // Start the Pomodoro timer
@@ -64,12 +64,14 @@ export class PomodoroTimer {
     updateTime() {
         if (this.currentTime > 0) {
             this.currentTime--;
-            if (this.currentTime < 4) {
+            if (this.currentTime < 4 && !this.soundPlayer.loop) {
+                this.soundPlayer.loop=true;
                 this.soundPlayer.play(); // Play sound when time is about to run out
             }
             this.notifyTimeUpdate();
         } else {
             this.onTimeUp();
+            this.soundPlayer.loop=false;
         }
     }
 

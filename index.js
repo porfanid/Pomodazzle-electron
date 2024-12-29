@@ -2,6 +2,8 @@ import { app, BrowserWindow, Menu, ipcMain } from 'electron';
 import path from 'path';
 import fs from 'fs';
 
+import {homedir} from 'os';
+
 let win;
 let settingsWindow;
 
@@ -57,7 +59,7 @@ function openAboutWindow() {
         },
     });
     aboutWindow.setMenu(null); // Hide the menu bar
-    aboutWindow.loadFile('about/about.html'); // Open the about.html page
+    aboutWindow.loadFile('src/about/about.html'); // Open the about.html page
 }
 
 
@@ -66,7 +68,7 @@ function openDonateWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
+            preload: path.join(__dirname, 'src','preload.js'),
             nodeIntegration: false,
             contextIsolation: true,
         },
@@ -90,7 +92,7 @@ function openSettingsWindow() {
         width: 400,
         height: 510,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
+            preload: path.join(__dirname, 'src', 'preload.js'),
             nodeIntegration: false,
             contextIsolation: true,
         },
@@ -98,7 +100,7 @@ function openSettingsWindow() {
 
     settingsWindow.setMenu(null); // Hide the menu bar
 
-    settingsWindow.loadFile('settings/settings.html'); // This is the separate settings window
+    settingsWindow.loadFile('src/settings/settings.html'); // This is the separate settings window
 
     // Close the settings window when the user closes it
     settingsWindow.on('closed', () => {
@@ -113,14 +115,14 @@ function createWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
+            preload: path.join(__dirname,'src', 'preload.js'),
             nodeIntegration: false,
             contextIsolation: true, // For security
         },
     });
     const menu = Menu.buildFromTemplate(menuTemplate);
     win.setMenu(menu);
-    win.loadFile('main/index.html').then(r => {});
+    win.loadFile('src/main/index.html').then(r => {});
 
     // Default settings
     const defaultSettings = {
@@ -130,7 +132,24 @@ function createWindow() {
         pomodoroCount: 4,
     };
 
-    const settingsFilePath = 'settings.json';
+    // Determine the path for the settings file
+    const settingsFilePath = path.join(
+        homedir(),
+        '.config',
+        'Pomodazzle',
+        'settings.json'
+    );
+
+    // Ensure the directory exists
+    const ensureSettingsDirectory = () => {
+        const settingsDir = path.dirname(settingsFilePath);
+        if (!fs.existsSync(settingsDir)) {
+            fs.mkdirSync(settingsDir, { recursive: true });
+        }
+    };
+
+// Call the function to create the directory if it doesn't exist
+    ensureSettingsDirectory();
 
 // Helper function to read settings from file
     function readSettings() {
