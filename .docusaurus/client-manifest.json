@@ -1,0 +1,737 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "1538": [
+      867,
+      1869,
+      3249,
+      3347,
+      4813,
+      6061,
+      7643,
+      8401,
+      1538
+    ],
+    "2237": [
+      2237
+    ],
+    "3347": [
+      867,
+      1538,
+      1869,
+      3249,
+      4212,
+      4813,
+      7643,
+      3347
+    ],
+    "17896441": [
+      1538,
+      1869,
+      8401
+    ],
+    "59362658": [
+      9325
+    ],
+    "main": [
+      1869,
+      5354,
+      8792
+    ],
+    "runtime~main": [
+      1869,
+      8792,
+      5354
+    ],
+    "01a85c17": [
+      1869,
+      8209
+    ],
+    "0e384e19": [
+      3976
+    ],
+    "10468aef": [
+      7886
+    ],
+    "14eb3368": [
+      1869,
+      6969
+    ],
+    "1f391b9e": [
+      1538,
+      1869,
+      6061
+    ],
+    "2377d8a9": [
+      6214
+    ],
+    "33fc5bb8": [
+      1538,
+      1869,
+      3347,
+      867
+    ],
+    "33ff654d": [
+      4658
+    ],
+    "36994c47": [
+      9858
+    ],
+    "393be207": [
+      4134
+    ],
+    "4b072edb": [
+      8275
+    ],
+    "558ffbb3": [
+      3566
+    ],
+    "5e95c892": [
+      9647
+    ],
+    "60e6f730": [
+      9632
+    ],
+    "621db11d": [
+      1869,
+      3347,
+      4212
+    ],
+    "665d9236": [
+      7730
+    ],
+    "6875c492": [
+      1538,
+      1869,
+      3347,
+      4813
+    ],
+    "725d5851": [
+      7678
+    ],
+    "73664a40": [
+      1972
+    ],
+    "7661071f": [
+      8737
+    ],
+    "7899f974": [
+      470
+    ],
+    "7bbee4c3": [
+      5990
+    ],
+    "814f3328": [
+      7472
+    ],
+    "822bd8ab": [
+      2748
+    ],
+    "8717b14a": [
+      3694
+    ],
+    "91ed408e": [
+      6379
+    ],
+    "92506f84": [
+      3553
+    ],
+    "925b3f96": [
+      8609
+    ],
+    "9e4087bc": [
+      2711
+    ],
+    "a6aa9e1f": [
+      1538,
+      1869,
+      3347,
+      7643
+    ],
+    "a7456010": [
+      1235
+    ],
+    "a7bd4aaa": [
+      7098
+    ],
+    "a94703ab": [
+      1869,
+      9048
+    ],
+    "aba21aa0": [
+      5742
+    ],
+    "acecf23e": [
+      1903
+    ],
+    "c4f5d8e4": [
+      1869,
+      2634
+    ],
+    "ca9568b9": [
+      3000
+    ],
+    "ccc49370": [
+      1538,
+      1869,
+      3347,
+      3249
+    ],
+    "d9f32620": [
+      5557
+    ],
+    "dcda3ecc": [
+      7875
+    ],
+    "dff1c289": [
+      1724
+    ],
+    "e273c56f": [
+      9328
+    ],
+    "e44a2883": [
+      4736
+    ],
+    "ef0e522c": [
+      9419
+    ],
+    "f4f34a3a": [
+      3637
+    ],
+    "f55d3e7a": [
+      8863
+    ],
+    "f9718b87": [
+      3641
+    ],
+    "ff21c7d0": [
+      2662
+    ],
+    "styles": [
+      867,
+      1538,
+      2634,
+      3249,
+      3347,
+      4212,
+      4813,
+      5354,
+      6061,
+      6969,
+      7643,
+      8209,
+      8401,
+      8792,
+      9048,
+      1869
+    ]
+  },
+  "assets": {
+    "470": {
+      "js": [
+        {
+          "file": "assets/js/7899f974.f853eb63.js",
+          "hash": "2096be26ed9494b9",
+          "publicPath": "/Pomodazzle-electron/assets/js/7899f974.f853eb63.js"
+        }
+      ]
+    },
+    "867": {
+      "js": [
+        {
+          "file": "assets/js/33fc5bb8.4244ab00.js",
+          "hash": "32cf16be4e5a918e",
+          "publicPath": "/Pomodazzle-electron/assets/js/33fc5bb8.4244ab00.js"
+        }
+      ]
+    },
+    "1235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.5f9bbb01.js",
+          "hash": "38e58472cead1722",
+          "publicPath": "/Pomodazzle-electron/assets/js/a7456010.5f9bbb01.js"
+        }
+      ]
+    },
+    "1538": {
+      "js": [
+        {
+          "file": "assets/js/1538.2dd4ee2b.js",
+          "hash": "10d773293e1d6d02",
+          "publicPath": "/Pomodazzle-electron/assets/js/1538.2dd4ee2b.js"
+        }
+      ]
+    },
+    "1724": {
+      "js": [
+        {
+          "file": "assets/js/dff1c289.3ad42838.js",
+          "hash": "d8a6247be2787db2",
+          "publicPath": "/Pomodazzle-electron/assets/js/dff1c289.3ad42838.js"
+        }
+      ]
+    },
+    "1869": {
+      "css": [
+        {
+          "file": "assets/css/styles.0c2494a9.css",
+          "hash": "33171cc328648ec8",
+          "publicPath": "/Pomodazzle-electron/assets/css/styles.0c2494a9.css"
+        }
+      ]
+    },
+    "1903": {
+      "js": [
+        {
+          "file": "assets/js/acecf23e.cc86648a.js",
+          "hash": "3509cf310412187b",
+          "publicPath": "/Pomodazzle-electron/assets/js/acecf23e.cc86648a.js"
+        }
+      ]
+    },
+    "1972": {
+      "js": [
+        {
+          "file": "assets/js/73664a40.8687d8c1.js",
+          "hash": "6e6c1159f01bbccf",
+          "publicPath": "/Pomodazzle-electron/assets/js/73664a40.8687d8c1.js"
+        }
+      ]
+    },
+    "2237": {
+      "js": [
+        {
+          "file": "assets/js/2237.fe867cfb.js",
+          "hash": "887a88fa789783c7",
+          "publicPath": "/Pomodazzle-electron/assets/js/2237.fe867cfb.js"
+        }
+      ]
+    },
+    "2634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.ced99fed.js",
+          "hash": "49c6423e4a1bea59",
+          "publicPath": "/Pomodazzle-electron/assets/js/c4f5d8e4.ced99fed.js"
+        }
+      ]
+    },
+    "2662": {
+      "js": [
+        {
+          "file": "assets/js/ff21c7d0.9cca8502.js",
+          "hash": "a71b9fac91492369",
+          "publicPath": "/Pomodazzle-electron/assets/js/ff21c7d0.9cca8502.js"
+        }
+      ]
+    },
+    "2711": {
+      "js": [
+        {
+          "file": "assets/js/9e4087bc.9b70b1ae.js",
+          "hash": "11424f3087e29ba3",
+          "publicPath": "/Pomodazzle-electron/assets/js/9e4087bc.9b70b1ae.js"
+        }
+      ]
+    },
+    "2748": {
+      "js": [
+        {
+          "file": "assets/js/822bd8ab.a3f8d732.js",
+          "hash": "ae29d0dbd7ed367a",
+          "publicPath": "/Pomodazzle-electron/assets/js/822bd8ab.a3f8d732.js"
+        }
+      ]
+    },
+    "3000": {
+      "js": [
+        {
+          "file": "assets/js/ca9568b9.6435d3a6.js",
+          "hash": "d8c7d4456f1c4ea9",
+          "publicPath": "/Pomodazzle-electron/assets/js/ca9568b9.6435d3a6.js"
+        }
+      ]
+    },
+    "3249": {
+      "js": [
+        {
+          "file": "assets/js/ccc49370.d69d59d4.js",
+          "hash": "dd34b54a7a33ef29",
+          "publicPath": "/Pomodazzle-electron/assets/js/ccc49370.d69d59d4.js"
+        }
+      ]
+    },
+    "3347": {
+      "js": [
+        {
+          "file": "assets/js/3347.4968c350.js",
+          "hash": "0745b6969a9ee25e",
+          "publicPath": "/Pomodazzle-electron/assets/js/3347.4968c350.js"
+        }
+      ]
+    },
+    "3553": {
+      "js": [
+        {
+          "file": "assets/js/92506f84.6f0883c6.js",
+          "hash": "cce42852e545caa6",
+          "publicPath": "/Pomodazzle-electron/assets/js/92506f84.6f0883c6.js"
+        }
+      ]
+    },
+    "3566": {
+      "js": [
+        {
+          "file": "assets/js/558ffbb3.ec1ef47d.js",
+          "hash": "5916adae5ab4da68",
+          "publicPath": "/Pomodazzle-electron/assets/js/558ffbb3.ec1ef47d.js"
+        }
+      ]
+    },
+    "3637": {
+      "js": [
+        {
+          "file": "assets/js/f4f34a3a.d4436c75.js",
+          "hash": "d3b0321a41e91a61",
+          "publicPath": "/Pomodazzle-electron/assets/js/f4f34a3a.d4436c75.js"
+        }
+      ]
+    },
+    "3641": {
+      "js": [
+        {
+          "file": "assets/js/f9718b87.33a35c5d.js",
+          "hash": "6c8c5799c11d98c8",
+          "publicPath": "/Pomodazzle-electron/assets/js/f9718b87.33a35c5d.js"
+        }
+      ]
+    },
+    "3694": {
+      "js": [
+        {
+          "file": "assets/js/8717b14a.dde027cd.js",
+          "hash": "7c3afa955e9a274e",
+          "publicPath": "/Pomodazzle-electron/assets/js/8717b14a.dde027cd.js"
+        }
+      ]
+    },
+    "3976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.5e2ccc40.js",
+          "hash": "979033694dd41701",
+          "publicPath": "/Pomodazzle-electron/assets/js/0e384e19.5e2ccc40.js"
+        }
+      ]
+    },
+    "4134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.dd0ecc30.js",
+          "hash": "0fa02b2dfcd63eb6",
+          "publicPath": "/Pomodazzle-electron/assets/js/393be207.dd0ecc30.js"
+        }
+      ]
+    },
+    "4212": {
+      "js": [
+        {
+          "file": "assets/js/621db11d.b41e86d6.js",
+          "hash": "db999ae12ca648e9",
+          "publicPath": "/Pomodazzle-electron/assets/js/621db11d.b41e86d6.js"
+        }
+      ]
+    },
+    "4658": {
+      "js": [
+        {
+          "file": "assets/js/33ff654d.89c6c516.js",
+          "hash": "7ddb8c55f63269f1",
+          "publicPath": "/Pomodazzle-electron/assets/js/33ff654d.89c6c516.js"
+        }
+      ]
+    },
+    "4736": {
+      "js": [
+        {
+          "file": "assets/js/e44a2883.1c2076d5.js",
+          "hash": "4f229f8fc5196b39",
+          "publicPath": "/Pomodazzle-electron/assets/js/e44a2883.1c2076d5.js"
+        }
+      ]
+    },
+    "4813": {
+      "js": [
+        {
+          "file": "assets/js/6875c492.b47275a3.js",
+          "hash": "a95689c43f8f92dc",
+          "publicPath": "/Pomodazzle-electron/assets/js/6875c492.b47275a3.js"
+        }
+      ]
+    },
+    "5354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.55c03636.js",
+          "hash": "ebcbc8649c9fb441",
+          "publicPath": "/Pomodazzle-electron/assets/js/runtime~main.55c03636.js"
+        }
+      ]
+    },
+    "5557": {
+      "js": [
+        {
+          "file": "assets/js/d9f32620.bbe88317.js",
+          "hash": "2627a7311ebff9a7",
+          "publicPath": "/Pomodazzle-electron/assets/js/d9f32620.bbe88317.js"
+        }
+      ]
+    },
+    "5742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.ed09cce9.js",
+          "hash": "e3ff961a95dd0f92",
+          "publicPath": "/Pomodazzle-electron/assets/js/aba21aa0.ed09cce9.js"
+        }
+      ]
+    },
+    "5990": {
+      "js": [
+        {
+          "file": "assets/js/7bbee4c3.5be0b4d1.js",
+          "hash": "4f9c577607f7a87c",
+          "publicPath": "/Pomodazzle-electron/assets/js/7bbee4c3.5be0b4d1.js"
+        }
+      ]
+    },
+    "6061": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.6f467a80.js",
+          "hash": "4d082d456a8ce39c",
+          "publicPath": "/Pomodazzle-electron/assets/js/1f391b9e.6f467a80.js"
+        }
+      ]
+    },
+    "6214": {
+      "js": [
+        {
+          "file": "assets/js/2377d8a9.1d959da1.js",
+          "hash": "b99c686aa5a6990d",
+          "publicPath": "/Pomodazzle-electron/assets/js/2377d8a9.1d959da1.js"
+        }
+      ]
+    },
+    "6379": {
+      "js": [
+        {
+          "file": "assets/js/91ed408e.8f6cee08.js",
+          "hash": "24e90c2f9967ef97",
+          "publicPath": "/Pomodazzle-electron/assets/js/91ed408e.8f6cee08.js"
+        }
+      ]
+    },
+    "6969": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.b3f9dfc9.js",
+          "hash": "3ba7f1ee7b830789",
+          "publicPath": "/Pomodazzle-electron/assets/js/14eb3368.b3f9dfc9.js"
+        }
+      ]
+    },
+    "7098": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.300507f7.js",
+          "hash": "f4dbbcf34b05fc78",
+          "publicPath": "/Pomodazzle-electron/assets/js/a7bd4aaa.300507f7.js"
+        }
+      ]
+    },
+    "7472": {
+      "js": [
+        {
+          "file": "assets/js/814f3328.ad0f400a.js",
+          "hash": "5e43eab8f5b6a6c6",
+          "publicPath": "/Pomodazzle-electron/assets/js/814f3328.ad0f400a.js"
+        }
+      ]
+    },
+    "7643": {
+      "js": [
+        {
+          "file": "assets/js/a6aa9e1f.73727051.js",
+          "hash": "6b65f7df14f794fb",
+          "publicPath": "/Pomodazzle-electron/assets/js/a6aa9e1f.73727051.js"
+        }
+      ]
+    },
+    "7678": {
+      "js": [
+        {
+          "file": "assets/js/725d5851.07922555.js",
+          "hash": "eabb064fe67156c4",
+          "publicPath": "/Pomodazzle-electron/assets/js/725d5851.07922555.js"
+        }
+      ]
+    },
+    "7730": {
+      "js": [
+        {
+          "file": "assets/js/665d9236.dc8b929d.js",
+          "hash": "3fe2e2a8f6c7b895",
+          "publicPath": "/Pomodazzle-electron/assets/js/665d9236.dc8b929d.js"
+        }
+      ]
+    },
+    "7875": {
+      "js": [
+        {
+          "file": "assets/js/dcda3ecc.9e216a05.js",
+          "hash": "ca3dc2192f72e4c7",
+          "publicPath": "/Pomodazzle-electron/assets/js/dcda3ecc.9e216a05.js"
+        }
+      ]
+    },
+    "7886": {
+      "js": [
+        {
+          "file": "assets/js/10468aef.9c2e8759.js",
+          "hash": "69a957657af49656",
+          "publicPath": "/Pomodazzle-electron/assets/js/10468aef.9c2e8759.js"
+        }
+      ]
+    },
+    "8209": {
+      "js": [
+        {
+          "file": "assets/js/01a85c17.5c1a76a0.js",
+          "hash": "1dfaf143bb3dd58b",
+          "publicPath": "/Pomodazzle-electron/assets/js/01a85c17.5c1a76a0.js"
+        }
+      ]
+    },
+    "8275": {
+      "js": [
+        {
+          "file": "assets/js/4b072edb.24df23ff.js",
+          "hash": "0d261b5530b6fb3a",
+          "publicPath": "/Pomodazzle-electron/assets/js/4b072edb.24df23ff.js"
+        }
+      ]
+    },
+    "8401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.10fdb211.js",
+          "hash": "c43c59cc72b4c3ea",
+          "publicPath": "/Pomodazzle-electron/assets/js/17896441.10fdb211.js"
+        }
+      ]
+    },
+    "8609": {
+      "js": [
+        {
+          "file": "assets/js/925b3f96.6b66c4a3.js",
+          "hash": "85f4daf01c074054",
+          "publicPath": "/Pomodazzle-electron/assets/js/925b3f96.6b66c4a3.js"
+        }
+      ]
+    },
+    "8737": {
+      "js": [
+        {
+          "file": "assets/js/7661071f.2dac3f17.js",
+          "hash": "374f65b13afb5ab6",
+          "publicPath": "/Pomodazzle-electron/assets/js/7661071f.2dac3f17.js"
+        }
+      ]
+    },
+    "8792": {
+      "js": [
+        {
+          "file": "assets/js/main.84461e20.js",
+          "hash": "c1717520b834ce67",
+          "publicPath": "/Pomodazzle-electron/assets/js/main.84461e20.js"
+        }
+      ]
+    },
+    "8863": {
+      "js": [
+        {
+          "file": "assets/js/f55d3e7a.fc0f3f6f.js",
+          "hash": "505cccf7471e9c15",
+          "publicPath": "/Pomodazzle-electron/assets/js/f55d3e7a.fc0f3f6f.js"
+        }
+      ]
+    },
+    "9048": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.34ab1074.js",
+          "hash": "4913339c032abbb4",
+          "publicPath": "/Pomodazzle-electron/assets/js/a94703ab.34ab1074.js"
+        }
+      ]
+    },
+    "9325": {
+      "js": [
+        {
+          "file": "assets/js/59362658.f422ba2e.js",
+          "hash": "39e3cb5cb0c5a6dc",
+          "publicPath": "/Pomodazzle-electron/assets/js/59362658.f422ba2e.js"
+        }
+      ]
+    },
+    "9328": {
+      "js": [
+        {
+          "file": "assets/js/e273c56f.11f3e6e2.js",
+          "hash": "e342dc64248ddf02",
+          "publicPath": "/Pomodazzle-electron/assets/js/e273c56f.11f3e6e2.js"
+        }
+      ]
+    },
+    "9419": {
+      "js": [
+        {
+          "file": "assets/js/ef0e522c.4c0e2279.js",
+          "hash": "f066a8289edeeedb",
+          "publicPath": "/Pomodazzle-electron/assets/js/ef0e522c.4c0e2279.js"
+        }
+      ]
+    },
+    "9632": {
+      "js": [
+        {
+          "file": "assets/js/60e6f730.dd2631de.js",
+          "hash": "f8124228c49e930f",
+          "publicPath": "/Pomodazzle-electron/assets/js/60e6f730.dd2631de.js"
+        }
+      ]
+    },
+    "9647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.3d1fe17f.js",
+          "hash": "98030c517b2b3265",
+          "publicPath": "/Pomodazzle-electron/assets/js/5e95c892.3d1fe17f.js"
+        }
+      ]
+    },
+    "9858": {
+      "js": [
+        {
+          "file": "assets/js/36994c47.337a7516.js",
+          "hash": "8a66dd1f7eacd5dd",
+          "publicPath": "/Pomodazzle-electron/assets/js/36994c47.337a7516.js"
+        }
+      ]
+    }
+  }
+}

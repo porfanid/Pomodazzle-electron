@@ -1,0 +1,273 @@
+{
+  "/Pomodazzle-electron/blog-98b": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "665d9236"
+  },
+  "/Pomodazzle-electron/blog/archive-647": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "558ffbb3"
+  },
+  "/Pomodazzle-electron/blog/authors-a16": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ef0e522c"
+  },
+  "/Pomodazzle-electron/blog/authors/all-sebastien-lorber-articles-486": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "725d5851"
+  },
+  "/Pomodazzle-electron/blog/authors/yangshun-a8a": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "7899f974"
+  },
+  "/Pomodazzle-electron/blog/first-blog-post-bb6": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/Pomodazzle-electron/blog/long-blog-post-dc4": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/Pomodazzle-electron/blog/mdx-blog-post-9c0": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/Pomodazzle-electron/blog/tags-ef4": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "2377d8a9"
+  },
+  "/Pomodazzle-electron/blog/tags/docusaurus-c5a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "91ed408e"
+  },
+  "/Pomodazzle-electron/blog/tags/facebook-8a6": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "4b072edb"
+  },
+  "/Pomodazzle-electron/blog/tags/hello-42c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "dcda3ecc"
+  },
+  "/Pomodazzle-electron/blog/tags/hola-3a0": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "ff21c7d0"
+  },
+  "/Pomodazzle-electron/blog/welcome-7a7": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/Pomodazzle-electron/markdown-page-35f": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/Pomodazzle-electron/docs-e54": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/Pomodazzle-electron/docs-6e6": {
+    "__comp": "a7bd4aaa",
+    "__props": "f9718b87"
+  },
+  "/Pomodazzle-electron/docs-145": {
+    "__comp": "a94703ab"
+  },
+  "/Pomodazzle-electron/docs/category/installation-and-usage-guide-cb1": {
+    "__comp": "14eb3368",
+    "__props": "33ff654d"
+  },
+  "/Pomodazzle-electron/docs/category/tutorial---extras-f31": {
+    "__comp": "14eb3368",
+    "__props": "ca9568b9"
+  },
+  "/Pomodazzle-electron/docs/intro-5f7": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/Pomodazzle-electron/docs/tutorial-basics/congratulations-5ed": {
+    "__comp": "17896441",
+    "content": "822bd8ab"
+  },
+  "/Pomodazzle-electron/docs/tutorial-basics/deploy-your-site-213": {
+    "__comp": "17896441",
+    "content": "f55d3e7a"
+  },
+  "/Pomodazzle-electron/docs/tutorial-basics/download-53f": {
+    "__comp": "17896441",
+    "content": "10468aef"
+  },
+  "/Pomodazzle-electron/docs/tutorial-basics/install-d89": {
+    "__comp": "17896441",
+    "content": "92506f84"
+  },
+  "/Pomodazzle-electron/docs/tutorial-basics/launch-edb": {
+    "__comp": "17896441",
+    "content": "60e6f730"
+  },
+  "/Pomodazzle-electron/docs/tutorial-basics/using-03a": {
+    "__comp": "17896441",
+    "content": "7bbee4c3"
+  },
+  "/Pomodazzle-electron/docs/tutorial-extras/manage-docs-versions-adf": {
+    "__comp": "17896441",
+    "content": "dff1c289"
+  },
+  "/Pomodazzle-electron/docs/tutorial-extras/translate-your-site-cf8": {
+    "__comp": "17896441",
+    "content": "e44a2883"
+  },
+  "/Pomodazzle-electron/-9ff": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

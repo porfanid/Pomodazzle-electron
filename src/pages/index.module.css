@@ -1,0 +1,40 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;  /* Allow buttons to wrap on small screens */
+}
+
+.button_container {
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  width: 50%;  /* This will be adjusted on small screens */
+  gap: 1rem;  /* Adds space between buttons when in row layout */
+}
+
+@media screen and (max-width: 600px) {
+  .button_container {
+    flex-direction: column;  /* Stack buttons vertically on small screens */
+    width: 100%;  /* Allow the container to take full width */
+    gap: 1rem;  /* Adds space between buttons when in column layout */
+  }
+
+  .button {
+    margin: 0;  /* Reset button margin for proper spacing */
+  }
+}
