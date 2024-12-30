@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpomodazzle=self.webpackChunkpomodazzle||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/Pomodazzle-electron/blog","blogTitle":"Blog","authorsListPath":"/Pomodazzle-electron/blog/authors"}')}}]);
